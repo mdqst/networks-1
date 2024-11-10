@@ -232,7 +232,7 @@ Properties descriptions:
 - `security_contact`: required email for security contact.
 - `details`: any other optional detail information.
 - `btc_pk`: the btc pub key as hex.
-- `commision`: the commission charged from btc stakers rewards.
+- `commission`: the commission charged from btc stakers rewards.
 Comission will be parsed as `sdk.Dec`:
   - `"1.00"` represents 100% commission.
   - `"0.10"` represents  10% commission.
